@@ -1,0 +1,9 @@
+include "config"
+
+thread = 2
+
+server_host = "127.0.0.1" 
+
+bootstrap = "snlua bootstrap" 
+start = "test/client"
+logtag = "client"

@@ -1,0 +1,56 @@
+include "config.path"
+
+-- start conf 
+thread      = 4
+bootstrap   = "snlua bootstrap"
+start       = "main"
+harbor      = 0
+-- daemon      = nil
+-- preload  = "preload.lua"
+-- daemon   = "skynet.pid"
+
+
+
+-- debug console
+debug_console_port = 4040
+
+
+-- log conf
+logger      = "log"
+logservice  = "snlua"
+logpath     = "log"
+logtag      = "game"
+log_level   = "debug"
+-- debug | info | warn | error 
+
+
+-- watchdog conf 
+ws_watchdog_timeout_auth        = 10 -- 客户端认证超时时长
+ws_watchdog_port                = 8888 -- websocket 端口
+ws_watchdog_max_online_client   = 1024 -- 最大客户端链接数量
+ws_watchdog_protocol            = "ws" -- websocket 协议类型
+
+
+-- mongodb conf 
+mongodb_ip      = "127.0.0.1"
+mongodb_port    = 27017
+mongodb_user    = "root"
+mongodb_pwd     = "123456"
+mongodb_db_name = "game"
+
+-- cache conf 
+cache_db_name       = "cache"
+cache_max_cnt       = 20480
+cache_save_interval = 60
+
+
+-- snowflake conf 
+snowflake_begin         = 1 
+snowflake_end           = 2
+snowflake_start_date    = "2003-01-21"
+
+
+-- search conf
+search_limit        = 10  -- 搜索数量限制
+search_expire       = 10  -- 搜索缓存时间
+search_max_cache    = 100 -- 最大缓存数量

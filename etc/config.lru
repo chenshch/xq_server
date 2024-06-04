@@ -1,0 +1,11 @@
+include "config"
+
+thread = 2
+bootstrap = "snlua bootstrap"
+start = "test/test_lru"
+logger = nil 
+logservice = nil 
+logtag = "lru"
+
+-- debug console
+debug_console_port = 4040

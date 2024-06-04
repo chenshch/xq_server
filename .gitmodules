@@ -3,7 +3,7 @@
 	url = https://github.com/openresty/lua-cjson.git
 [submodule "3rd/lua-protobuf"]
 	path = 3rd/lua-protobuf
-	url = https://github.com/starwing/lua-protobuf
+	url = https://github.com/starwing/lua-protobuf.git
 [submodule "skynet"]
 	path = skynet
 	url = https://github.com/cloudwu/skynet.git

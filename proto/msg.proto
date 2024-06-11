@@ -1,0 +1,8 @@
+syntax = "proto2";
+package Msg;
+message MsgBase
+{
+	required string name = 1;
+	required bytes data = 2;
+	required int32 sission = 3;
+}

@@ -1,0 +1,35 @@
+[00000004][2024-06-09 13:45:59] LAUNCH snlua cdummy
+[00000005][2024-06-09 13:45:59] LAUNCH harbor 0 4
+[00000006][2024-06-09 13:45:59] LAUNCH snlua datacenterd
+[00000007][2024-06-09 13:45:59] LAUNCH snlua service_mgr
+[00000008][2024-06-09 13:45:59] LAUNCH snlua main
+[00000008][2024-06-09 13:45:59] [main.lua] start
+[00000009][2024-06-09 13:45:59] LAUNCH snlua console
+[0000000a][2024-06-09 13:45:59] LAUNCH snlua debug_console 4040
+[0000000a][2024-06-09 13:45:59] init service failed: ./skynet/lualib/skynet/socket.lua:414: Listen error
+stack traceback:
+	[C]: in function 'skynet.socketdriver.listen'
+	./skynet/lualib/skynet/socket.lua:414: in function 'skynet.socket.listen'
+	./skynet/service/debug_console.lua:121: in upvalue 'start'
+	./skynet/lualib/skynet.lua:1065: in function <./skynet/lualib/skynet.lua:1063>
+	[C]: in function 'xpcall'
+	./skynet/lualib/skynet.lua:1067: in function 'skynet.init_service'
+	./skynet/lualib/skynet.lua:1080: in upvalue 'f'
+	./skynet/lualib/skynet.lua:375: in function <./skynet/lualib/skynet.lua:374>
+[0000000a][2024-06-09 13:45:59] KILL self
+[00000008][2024-06-09 13:45:59] init service failed: ./skynet/lualib/skynet.lua:720: call failed
+stack traceback:
+	[C]: in function 'error'
+	./skynet/lualib/skynet.lua:720: in upvalue 'yield_call'
+	./skynet/lualib/skynet.lua:737: in function 'skynet.call'
+	(...tail calls...)
+	./service/main.lua:16: in upvalue 'start'
+	./skynet/lualib/skynet.lua:1065: in function <./skynet/lualib/skynet.lua:1063>
+	[C]: in function 'xpcall'
+	./skynet/lualib/skynet.lua:1067: in function 'skynet.init_service'
+	./skynet/lualib/skynet.lua:1080: in upvalue 'f'
+	./skynet/lualib/skynet.lua:375: in function <./skynet/lualib/skynet.lua:374>
+[00000008][2024-06-09 13:45:59] KILL self
+[00000002][2024-06-09 13:45:59] KILL self
+[00000002][2024-06-09 13:46:11] LAUNCH snlua bootstrap
+[00000003][2024-06-09 13:46:11] LAUNCH snlua launcher

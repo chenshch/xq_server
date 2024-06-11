@@ -9,6 +9,7 @@ help:
 	@echo "  make server  # 启动服务端"
 	@echo "  make client  # 启动客户端"
 	@echo "  make console # 启动控制台"
+	@echo "  make pb 	  # 生成pb"
 
 LOG_PATH ?= log
 LUA_CLIB_PATH ?= luaclib
@@ -34,6 +35,9 @@ client:
 console:
 	@telnet 127.0.0.1 4040
 
+pb: proto/login.pb proto/room.pb proto/table.pb proto/msg.pb
+
 clean:
 	rm -f $(LOG_PATH)/*
 	rm -f $(LUA_CLIB_PATH)/*.so
+	rm proto/*.pb

@@ -1,0 +1,14 @@
+syntax = "proto2";
+package Login;
+
+message LoginReq
+{
+	optional string account = 1;
+	optional string token = 2;
+}
+
+message LoginRsp
+{
+	optional string account = 1;
+	optional string token = 2;
+}

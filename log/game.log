@@ -1,0 +1,280 @@
+[0000000d][2024-06-11 01:19:48] [info] [ws_gate] accept client socket_fd: 12 addr: 127.0.0.1:55559
+[0000000d][2024-06-11 01:19:48] [debug] [ws_gate] ws connect from:  12
+[0000000c][2024-06-11 01:19:48] [debug] [ws_watchdog] New client from : 127.0.0.1:55559
+[0000000d][2024-06-11 01:19:48] [debug] [ws_gate] ws handshake from:  12 , url:  / , addr:  127.0.0.1:55559
+[0000000d][2024-06-11 01:19:49] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_login","acc":"test_account","token":"token","sign":"f0152c68a02205073183cbb9b3d358c1"}
+[0000000c][2024-06-11 01:19:49] [info] [ws_watchdog] SOCKET data fd:  12 msg:  {"pid":"c2s_login","acc":"test_account","token":"token","sign":"f0152c68a02205073183cbb9b3d358c1"}
+[00000012][2024-06-11 01:19:49] [debug] [cached] Get func_name:  user_user_get_userinfo
+[0000000e][2024-06-11 01:19:49] [info] [ws_agent] Login Success acc:  test_account fd:  12
+[0000000d][2024-06-11 01:19:49] [debug] [ws_gate] ws response:  12 , msg:  {"msg":"Login success","pid":"s2c_login","uid":"2864526027785244672","username":"New Player","lv":1,"exp":0}
+[0000000d][2024-06-11 01:19:54] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:19:54] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:19:59] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:19:59] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:20:04] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:20:04] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:20:09] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:20:09] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:20:14] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:20:14] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:20:19] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:20:19] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:20:24] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:20:24] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:20:29] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:20:29] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:20:34] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:20:34] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:20:39] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:20:39] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[00000012][2024-06-11 01:20:43] [debug] [cached] save key:  user_2864526027785244672
+[0000000d][2024-06-11 01:20:44] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:20:44] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:20:49] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:20:49] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:20:54] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:20:54] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:20:59] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:20:59] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:21:04] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:21:04] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:21:09] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:21:09] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:21:14] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:21:14] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:21:19] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:21:19] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:21:24] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:21:24] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:21:29] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:21:29] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:21:34] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:21:34] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:21:39] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:21:39] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:21:44] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:21:44] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:21:49] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:21:49] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:21:54] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:21:54] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:21:59] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:21:59] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:22:04] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:22:04] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:22:09] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:22:09] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:22:14] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:22:14] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:22:19] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:22:19] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:22:24] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:22:24] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:22:29] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:22:29] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:22:34] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:22:34] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:22:39] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:22:39] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:22:44] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:22:44] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:22:49] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:22:49] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:22:54] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:22:54] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:22:59] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:22:59] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:23:04] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:23:04] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:23:09] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:23:09] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:23:14] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:23:14] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:23:19] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:23:19] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:23:24] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:23:24] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:23:29] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:23:29] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:23:34] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:23:34] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:23:39] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:23:39] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:23:44] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:23:44] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:23:49] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:23:49] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:23:54] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:23:54] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:23:59] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:23:59] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:24:04] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:24:04] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:24:09] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:24:09] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:24:14] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:24:14] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:24:19] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:24:19] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:24:24] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:24:24] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:24:29] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:24:29] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:24:34] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:24:34] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:24:39] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:24:39] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:24:44] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:24:44] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:24:49] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:24:49] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:24:54] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:24:54] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:24:59] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:24:59] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:25:04] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:25:04] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:25:09] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:25:09] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:25:14] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:25:14] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:25:19] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:25:19] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:25:24] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:25:24] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:25:29] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:25:29] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:25:34] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:25:34] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:25:39] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:25:39] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:25:44] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:25:44] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:25:49] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:25:49] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:25:54] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:25:54] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:25:59] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:25:59] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:26:04] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:26:04] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:26:09] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:26:09] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:26:14] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:26:14] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:26:19] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:26:19] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:26:24] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:26:24] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:26:29] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:26:29] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:26:34] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:26:34] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:26:39] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:26:39] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:26:44] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:26:44] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:26:49] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:26:49] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:26:54] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:26:54] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:26:59] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:26:59] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:27:04] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:27:04] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:27:09] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:27:09] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:27:14] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:27:14] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:27:19] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:27:19] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:27:24] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:27:24] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:27:29] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:27:29] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:27:34] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:27:34] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:27:39] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:27:39] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:27:44] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:27:44] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:27:49] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:27:49] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:27:54] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:27:54] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:27:59] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:27:59] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:28:04] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:28:04] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:28:09] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:28:09] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:28:14] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:28:14] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:28:19] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:28:19] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:28:24] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:28:24] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:28:29] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:28:29] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:28:34] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:28:34] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:28:39] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:28:39] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:28:44] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:28:44] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:28:49] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:28:49] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:28:54] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:28:54] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:28:59] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:28:59] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:29:04] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:29:04] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:29:09] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:29:09] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:29:14] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:29:14] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:29:19] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:29:19] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:29:24] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:29:24] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:29:29] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:29:29] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:29:34] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:29:34] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:29:39] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:29:39] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:29:44] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:29:44] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:29:49] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:29:49] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:29:54] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:29:54] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:29:59] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:29:59] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:30:04] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:30:04] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:30:09] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:30:09] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:30:14] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:30:14] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:30:19] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:30:19] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:30:24] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:30:24] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:30:29] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:30:29] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:30:34] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:30:34] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:30:39] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:30:39] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:30:44] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:30:44] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:30:49] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:30:49] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:30:54] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:30:54] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:30:59] [debug] [ws_gate] ws message from:  12 , msg:  {"pid":"c2s_heartbeat"}
+[0000000e][2024-06-11 01:30:59] [debug] [ws_agent] socket data 12 {"pid":"c2s_heartbeat"}
+[0000000d][2024-06-11 01:31:02] [error] [ws_gate] ws error from:  12
+[0000000c][2024-06-11 01:31:02] [error] [ws_watchdog] socket error 12

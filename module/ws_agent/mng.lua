@@ -6,6 +6,7 @@ local db = require "ws_agent.db"
 local cache = require "cache"
 local gm = require "ws_agent.gm.main"
 local search = require "ws_agent.search"
+local protopack = require "protopack"
 
 local WATCHDOG 
 local GATE 
@@ -54,7 +55,7 @@ function _M.get_uid(fd)
 end 
 
 function _M.send_res(fd, res)
-    local res = cjson.encode(res)
+    local res = protopack.encode(res)
     skynet.send(GATE, "lua", "response", fd, res)
 end 
 
